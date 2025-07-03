@@ -6,7 +6,7 @@ export default function Navigation() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/">Quiz App</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">TAI</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/news">News</Nav.Link>
